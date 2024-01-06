@@ -1,1 +1,14 @@
-// dummy file
+// credentials for wifi and mqtt
+
+#define WIFI_NETWORK_NAME "your_wifi";
+#define WIFI_PASSWORD "your_pw";
+
+#define MQTT_SERVER "ip-adress";
+#define MQTT_PORT 1883;
+#define MQTT_CLIENT_NAME "enthaerter_fuellstand";
+#define MQTT_USER "your_user-name";
+#define MQTT_PASSWORD "your-pw";
+#define MQTT_TOPIC_DISTANCE "objekt/wasserenthaerter/fuellstand_cm";
+
+// time to deepsleep in sec
+#define APP_DEEP_SLEEP_SEC 3 * 60 * 60; 
